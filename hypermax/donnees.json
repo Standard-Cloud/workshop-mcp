@@ -1,0 +1,221 @@
+{
+  "store": {
+    "storeId": "HMX-001",
+    "displayName": "HyperMax",
+    "format": "hypermarché généraliste",
+    "businessHours": {
+      "opensAt": "08:00",
+      "closesAt": "21:00",
+      "days": "daily",
+      "timeZone": "Europe/Paris"
+    },
+    "currency": "EUR"
+  },
+  "catalog": [
+    {
+      "sku": "HMX-001",
+      "title": "Saucisses de porc x6",
+      "department": "boucherie",
+      "pack": {
+        "count": 6,
+        "unit": "pièce"
+      },
+      "priceTtc": 6.2,
+      "inventoryUnits": 30,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-002",
+      "title": "Merguez x6",
+      "department": "boucherie",
+      "pack": {
+        "count": 6,
+        "unit": "pièce"
+      },
+      "priceTtc": 6.8,
+      "inventoryUnits": 20,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-003",
+      "title": "Steaks hachés x4",
+      "department": "boucherie",
+      "pack": {
+        "count": 4,
+        "unit": "pièce"
+      },
+      "priceTtc": 7.9,
+      "inventoryUnits": 15,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-004",
+      "title": "Brochettes de poulet x4",
+      "department": "boucherie",
+      "pack": {
+        "count": 4,
+        "unit": "pièce"
+      },
+      "priceTtc": 8.5,
+      "inventoryUnits": 12,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-005",
+      "title": "Saucisses de porc bio x6",
+      "department": "boucherie",
+      "pack": {
+        "count": 6,
+        "unit": "pièce"
+      },
+      "priceTtc": 9.9,
+      "inventoryUnits": 10,
+      "isOrganic": true
+    },
+    {
+      "sku": "HMX-006",
+      "title": "Steaks hachés bio x4",
+      "department": "boucherie",
+      "pack": {
+        "count": 4,
+        "unit": "pièce"
+      },
+      "priceTtc": 11.5,
+      "inventoryUnits": 8,
+      "isOrganic": true
+    },
+    {
+      "sku": "HMX-007",
+      "title": "Chips nature 200 g",
+      "department": "épicerie",
+      "pack": {
+        "count": 200,
+        "unit": "g"
+      },
+      "priceTtc": 1.6,
+      "inventoryUnits": 40,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-008",
+      "title": "Frites surgelées 1 kg",
+      "department": "surgelés",
+      "pack": {
+        "count": 1,
+        "unit": "kg"
+      },
+      "priceTtc": 2.7,
+      "inventoryUnits": 25,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-009",
+      "title": "Baguette",
+      "department": "boulangerie",
+      "pack": {
+        "count": 1,
+        "unit": "pièce"
+      },
+      "priceTtc": 1.1,
+      "inventoryUnits": 30,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-010",
+      "title": "Ketchup 500 ml",
+      "department": "épicerie",
+      "pack": {
+        "count": 500,
+        "unit": "ml"
+      },
+      "priceTtc": 1.75,
+      "inventoryUnits": 25,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-011",
+      "title": "Cola 1,5 L",
+      "department": "boissons",
+      "pack": {
+        "count": 1.5,
+        "unit": "L"
+      },
+      "priceTtc": 1.15,
+      "inventoryUnits": 35,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-012",
+      "title": "Eau 1,5 L",
+      "department": "boissons",
+      "pack": {
+        "count": 1.5,
+        "unit": "L"
+      },
+      "priceTtc": 0.55,
+      "inventoryUnits": 50,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-013",
+      "title": "Salade composée 300 g",
+      "department": "traiteur",
+      "pack": {
+        "count": 300,
+        "unit": "g"
+      },
+      "priceTtc": 3.5,
+      "inventoryUnits": 15,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-014",
+      "title": "Barbecue charbon compact",
+      "department": "plein_air",
+      "pack": {
+        "count": 1,
+        "unit": "pièce"
+      },
+      "priceTtc": 49.9,
+      "inventoryUnits": 5,
+      "isOrganic": false,
+      "manufacturerModel": "BBQ-C100"
+    },
+    {
+      "sku": "HMX-015",
+      "title": "Charbon de bois 5 kg",
+      "department": "plein_air",
+      "pack": {
+        "count": 5,
+        "unit": "kg"
+      },
+      "priceTtc": 11.9,
+      "inventoryUnits": 15,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-016",
+      "title": "Allume-feu x32",
+      "department": "plein_air",
+      "pack": {
+        "count": 32,
+        "unit": "pièce"
+      },
+      "priceTtc": 4.5,
+      "inventoryUnits": 20,
+      "isOrganic": false
+    },
+    {
+      "sku": "HMX-017",
+      "title": "Pince à barbecue",
+      "department": "plein_air",
+      "pack": {
+        "count": 1,
+        "unit": "pièce"
+      },
+      "priceTtc": 8.9,
+      "inventoryUnits": 12,
+      "isOrganic": false
+    }
+  ]
+}

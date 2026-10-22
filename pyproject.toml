@@ -1,0 +1,9 @@
+[project]
+name = "workshop-mcp-marchands"
+version = "0.1.0"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-m 'not live'"
+markers = ["live: needs the real model endpoint (LLM_BASE_URL) and running MCP servers; run with -m live"]

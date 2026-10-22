@@ -1,0 +1,79 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Servers: restart all",
+      "type": "shell",
+      "command": "bash scripts/start.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Servers: stop all",
+      "type": "shell",
+      "command": "kill $(cat /tmp/workshop-logs/*.pid) 2>/dev/null; rm -f /tmp/workshop-logs/*.pid; echo stopped",
+      "problemMatcher": []
+    },
+    {
+      "label": "Servers: show logs",
+      "type": "shell",
+      "command": "tail -n 20 -f /tmp/workshop-logs/*.log",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "MCP: check all servers (smoke test)",
+      "type": "shell",
+      "command": "python scripts/smoke.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "MCP demo: Prix Malin",
+      "type": "shell",
+      "command": "bash prix-malin/demo.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "MCP demo: HyperMax",
+      "type": "shell",
+      "command": "bash hypermax/demo.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "MCP demo: BricoPro",
+      "type": "shell",
+      "command": "bash bricopro/demo.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Stage 1: Prix Malin only",
+      "type": "shell",
+      "command": "cp .workshop/mcp-stages/01-prix-malin.json .vscode/mcp.json && echo 'mcp.json -> stage 1'",
+      "problemMatcher": []
+    },
+    {
+      "label": "Stage 2: add HyperMax",
+      "type": "shell",
+      "command": "cp .workshop/mcp-stages/02-add-hypermax.json .vscode/mcp.json && echo 'mcp.json -> stage 2'",
+      "problemMatcher": []
+    },
+    {
+      "label": "Stage 3: add BricoPro",
+      "type": "shell",
+      "command": "cp .workshop/mcp-stages/03-add-bricopro.json .vscode/mcp.json && echo 'mcp.json -> stage 3'",
+      "problemMatcher": []
+    },
+    {
+      "label": "Inspector: start (instructor)",
+      "type": "shell",
+      "command": "python agent-inspector/app.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "Tests: run pytest",
+      "type": "shell",
+      "command": "python -m pytest -q",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

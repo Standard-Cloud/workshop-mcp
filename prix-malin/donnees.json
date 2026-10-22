@@ -1,0 +1,120 @@
+{
+  "enseigne": {
+    "code": "PM-01",
+    "nom": "Prix Malin",
+    "positionnement": "Discount alimentaire, assortiment réduit selon arrivages",
+    "horaires": "09:00-17:00",
+    "jours_ouverture": "tous les jours",
+    "devise": "EUR"
+  },
+  "arrivages": [
+    {
+      "code_arrivage": "PM-001",
+      "libelle": "Saucisses de porc x6",
+      "famille": "viande",
+      "conditionnement": {
+        "quantite": 6,
+        "unite": "pièce"
+      },
+      "prix_centimes_ttc": 450,
+      "lots_disponibles": 12,
+      "etat": "en_stock"
+    },
+    {
+      "code_arrivage": "PM-002",
+      "libelle": "Merguez x6",
+      "famille": "viande",
+      "conditionnement": {
+        "quantite": 6,
+        "unite": "pièce"
+      },
+      "prix_centimes_ttc": 520,
+      "lots_disponibles": 8,
+      "etat": "en_stock"
+    },
+    {
+      "code_arrivage": "PM-003",
+      "libelle": "Steaks hachés x4",
+      "famille": "viande",
+      "conditionnement": {
+        "quantite": 4,
+        "unite": "pièce"
+      },
+      "prix_centimes_ttc": 590,
+      "lots_disponibles": 6,
+      "etat": "en_stock"
+    },
+    {
+      "code_arrivage": "PM-004",
+      "libelle": "Brochettes de poulet x4",
+      "famille": "viande",
+      "conditionnement": {
+        "quantite": 4,
+        "unite": "pièce"
+      },
+      "prix_centimes_ttc": 690,
+      "lots_disponibles": 0,
+      "etat": "rupture"
+    },
+    {
+      "code_arrivage": "PM-005",
+      "libelle": "Frites surgelées 1 kg",
+      "famille": "surgelé",
+      "conditionnement": {
+        "quantite": 1,
+        "unite": "kg"
+      },
+      "prix_centimes_ttc": 180,
+      "lots_disponibles": 15,
+      "etat": "en_stock"
+    },
+    {
+      "code_arrivage": "PM-006",
+      "libelle": "Baguette",
+      "famille": "boulangerie",
+      "conditionnement": {
+        "quantite": 1,
+        "unite": "pièce"
+      },
+      "prix_centimes_ttc": 85,
+      "lots_disponibles": 20,
+      "etat": "en_stock"
+    },
+    {
+      "code_arrivage": "PM-007",
+      "libelle": "Ketchup 500 ml",
+      "famille": "épicerie",
+      "conditionnement": {
+        "quantite": 500,
+        "unite": "ml"
+      },
+      "prix_centimes_ttc": 120,
+      "lots_disponibles": 7,
+      "etat": "en_stock"
+    },
+    {
+      "code_arrivage": "PM-008",
+      "libelle": "Cola 1,5 L",
+      "famille": "boisson",
+      "conditionnement": {
+        "quantite": 1.5,
+        "unite": "L"
+      },
+      "prix_centimes_ttc": 130,
+      "lots_disponibles": 10,
+      "etat": "en_stock"
+    },
+    {
+      "code_arrivage": "PM-009",
+      "libelle": "Eau 1,5 L",
+      "famille": "boisson",
+      "conditionnement": {
+        "quantite": 1.5,
+        "unite": "L"
+      },
+      "prix_centimes_ttc": 35,
+      "lots_disponibles": 24,
+      "etat": "en_stock"
+    }
+  ]
+}

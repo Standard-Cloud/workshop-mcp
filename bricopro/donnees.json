@@ -1,0 +1,215 @@
+{
+  "agence": {
+    "identifiant": "BRP-77",
+    "enseigne": "BricoPro",
+    "activite": "Bricolage et équipement extérieur",
+    "ouverture": {
+      "de": "07:00",
+      "a": "19:00",
+      "jours": "7j/7",
+      "fuseau": "Europe/Paris"
+    }
+  },
+  "references": [
+    {
+      "reference": "BP-100",
+      "designation": "Barbecue charbon compact",
+      "rayon": "barbecues",
+      "tarif": {
+        "montant_ttc_centimes": 3990,
+        "devise": "EUR"
+      },
+      "disponibilite": {
+        "en_stock": true,
+        "quantite_cond": 8
+      },
+      "contenu": {
+        "valeur": 1,
+        "mesure": "pièce"
+      },
+      "modele_fabricant": "BBQ-C100",
+      "type_combustible": "charbon",
+      "capacite_personnes": {
+        "min": 4,
+        "max": 6
+      }
+    },
+    {
+      "reference": "BP-101",
+      "designation": "Barbecue charbon familial",
+      "rayon": "barbecues",
+      "tarif": {
+        "montant_ttc_centimes": 8990,
+        "devise": "EUR"
+      },
+      "disponibilite": {
+        "en_stock": true,
+        "quantite_cond": 5
+      },
+      "contenu": {
+        "valeur": 1,
+        "mesure": "pièce"
+      },
+      "modele_fabricant": "BBQ-F200",
+      "type_combustible": "charbon",
+      "capacite_personnes": {
+        "min": 8,
+        "max": 12
+      }
+    },
+    {
+      "reference": "BP-102",
+      "designation": "Barbecue gaz 3 brûleurs",
+      "rayon": "barbecues",
+      "tarif": {
+        "montant_ttc_centimes": 24900,
+        "devise": "EUR"
+      },
+      "disponibilite": {
+        "en_stock": true,
+        "quantite_cond": 3
+      },
+      "contenu": {
+        "valeur": 1,
+        "mesure": "pièce"
+      },
+      "modele_fabricant": "BBQ-G300",
+      "type_combustible": "gaz",
+      "capacite_personnes": {
+        "min": 8,
+        "max": 10
+      }
+    },
+    {
+      "reference": "BP-103",
+      "designation": "Charbon de bois 5 kg",
+      "rayon": "combustibles",
+      "tarif": {
+        "montant_ttc_centimes": 890,
+        "devise": "EUR"
+      },
+      "disponibilite": {
+        "en_stock": true,
+        "quantite_cond": 25
+      },
+      "contenu": {
+        "valeur": 5,
+        "mesure": "kg"
+      },
+      "combustible_requis": "charbon",
+      "modeles_compatibles": [
+        "BBQ-C100",
+        "BBQ-F200"
+      ]
+    },
+    {
+      "reference": "BP-104",
+      "designation": "Briquettes 5 kg",
+      "rayon": "combustibles",
+      "tarif": {
+        "montant_ttc_centimes": 1090,
+        "devise": "EUR"
+      },
+      "disponibilite": {
+        "en_stock": true,
+        "quantite_cond": 20
+      },
+      "contenu": {
+        "valeur": 5,
+        "mesure": "kg"
+      },
+      "combustible_requis": "charbon",
+      "modeles_compatibles": [
+        "BBQ-C100",
+        "BBQ-F200"
+      ]
+    },
+    {
+      "reference": "BP-105",
+      "designation": "Allume-feu x32",
+      "rayon": "allumage",
+      "tarif": {
+        "montant_ttc_centimes": 290,
+        "devise": "EUR"
+      },
+      "disponibilite": {
+        "en_stock": true,
+        "quantite_cond": 30
+      },
+      "contenu": {
+        "valeur": 32,
+        "mesure": "pièce"
+      },
+      "combustible_requis": "charbon",
+      "modeles_compatibles": [
+        "BBQ-C100",
+        "BBQ-F200"
+      ]
+    },
+    {
+      "reference": "BP-106",
+      "designation": "Pince à barbecue",
+      "rayon": "accessoires",
+      "tarif": {
+        "montant_ttc_centimes": 590,
+        "devise": "EUR"
+      },
+      "disponibilite": {
+        "en_stock": true,
+        "quantite_cond": 15
+      },
+      "contenu": {
+        "valeur": 1,
+        "mesure": "pièce"
+      },
+      "modeles_compatibles": [
+        "BBQ-C100",
+        "BBQ-F200",
+        "BBQ-G300"
+      ]
+    },
+    {
+      "reference": "BP-107",
+      "designation": "Grille de cuisson universelle",
+      "rayon": "accessoires",
+      "tarif": {
+        "montant_ttc_centimes": 1490,
+        "devise": "EUR"
+      },
+      "disponibilite": {
+        "en_stock": true,
+        "quantite_cond": 12
+      },
+      "contenu": {
+        "valeur": 1,
+        "mesure": "pièce"
+      },
+      "modeles_compatibles": [
+        "BBQ-C100",
+        "BBQ-F200"
+      ]
+    },
+    {
+      "reference": "BP-108",
+      "designation": "Kit d’ustensiles barbecue",
+      "rayon": "accessoires",
+      "tarif": {
+        "montant_ttc_centimes": 1990,
+        "devise": "EUR"
+      },
+      "disponibilite": {
+        "en_stock": true,
+        "quantite_cond": 10
+      },
+      "contenu": {
+        "valeur": 1,
+        "mesure": "kit"
+      },
+      "modeles_compatibles": [
+        "BBQ-C100",
+        "BBQ-F200",
+        "BBQ-G300"
+      ]
+    }
+  ]
+}
