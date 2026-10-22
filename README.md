@@ -1,4 +1,4 @@
-# MCP Workshop — Why Business People Should Care
+# MCP Workshop For Business
 
 > **Goal:** understand the **business value** of MCP by playing with a realistic multi-supplier setup.
 
